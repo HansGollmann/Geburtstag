@@ -5,10 +5,12 @@ class Geburtstag {
 		this.init();
 	}
 	private init() {
+		let that:Geburtstag = this;
 		$('div.tabs').tabs({
 			active: false,
 			heightStyle: "content",
-			collapsible: true
+			collapsible: true,
+			activate: function(event,ui){ that.setBreite() }
 		});
 		this.setBreite()
 	}

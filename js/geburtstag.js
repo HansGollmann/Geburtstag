@@ -5,10 +5,12 @@ var Geburtstag = /** @class */ (function () {
         this.init();
     }
     Geburtstag.prototype.init = function () {
+        var that = this;
         $('div.tabs').tabs({
             active: false,
             heightStyle: "content",
-            collapsible: true
+            collapsible: true,
+            activate: function (event, ui) { that.setBreite(); }
         });
         this.setBreite();
     };
