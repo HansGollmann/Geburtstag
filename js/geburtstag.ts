@@ -1,6 +1,6 @@
 ///<reference types="jquery" />
 ///<reference types="jqueryui" />
-class Sprachen {
+class Geburtstag {
 	constructor() {
 		this.init();
 	}

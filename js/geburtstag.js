@@ -1,5 +1,11 @@
-var Sprachen = /** @class */ (function () {
-    function Sprachen() {
+///<reference types="jquery" />
+///<reference types="jqueryui" />
+var Geburtstag = /** @class */ (function () {
+    function Geburtstag() {
+        this.init();
     }
-    return Sprachen;
+    Geburtstag.prototype.init = function () {
+        $('div.tabs').tabs();
+    };
+    return Geburtstag;
 }());
