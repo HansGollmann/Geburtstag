@@ -5,7 +5,11 @@ class Geburtstag {
 		this.init();
 	}
 	private init() {
-		$('div.tabs').tabs();
+		$('div.tabs').tabs({
+			active: false,
+			heightStyle: "content",
+			collapsible: true
+		});
 		this.setBreite()
 	}
 	private setBreite() {
