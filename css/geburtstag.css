@@ -1,4 +1,12 @@
 img.foto {
 	max-width: 50vw;
+	max-height: 50vh;
 	height: auto;
+	width: auto;
+}
+.left {
+	float: left;
+}
+.clear {
+	clear: both;
 }
