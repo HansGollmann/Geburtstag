@@ -1,12 +1,28 @@
-img.foto {
-	max-width: 50vw;
-	max-height: 50vh;
-	height: auto;
-	width: auto;
+.galerie {
+    text-align: center;        /* Container zentriert die Einträge */
 }
+
 .left {
-	float: left;
+    display: inline-block;     /* ← Container passt sich der Bildbreite an */
+    padding: 5px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 40vw;           /* maximale Breite begrenzen */
+    margin: 10px;              /* Abstand zwischen den Einträgen */
+    vertical-align: top;       /* Ausrichtung bei unterschiedlichen Höhen */
 }
-.clear {
-	clear: both;
+
+img.foto {
+    max-width: 40vw;
+    max-height: 40vh;
+    height: auto;
+    width: auto;
+    display: block;
+}
+
+div.imgText {
+    max-width: 100%;           /* Text = Containerbreite (und damit Bildbreite) */
+    margin-top: 5px;
+    word-wrap: break-word;
 }
