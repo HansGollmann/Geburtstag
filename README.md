@@ -2,4 +2,4 @@
 
 ## 24. August
 
-### Schälen und Schneiden von 4kg gälbe Rüabla
+### Schälen und Schneiden von 4kg gelben Rüben für das Gulasch
