@@ -34,7 +34,9 @@ div.Deckel {
 	border-radius: 20px;
 	border-style: solid;
 	border-width: 2px;
-	border-color: gray
+	border-color: gray;
+	margin: 5px;
+	padding: 0.5px;
 }
 img.DeckelImage1 {
 	height: 90vh;
